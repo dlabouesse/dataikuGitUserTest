@@ -2,7 +2,7 @@
     "id" : "geocoder-2",
     "version" : "1.0.9",
 
-    "meta" : { 
+    "meta" : {
         "label" : "Geocoder two",
         "description" : "Provides recipes to perform geocoding and reverse geocoding on columns of your datasets. Supports over 25 geocoding service providers, along with caching and batch options.",
         "author" : "Dataiku (Thomas Labadie)",

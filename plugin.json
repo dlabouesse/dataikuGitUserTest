@@ -1,6 +1,6 @@
 {
     "id" : "geocoder",
-    "version" : "1.0.10",
+    "version" : "1.0.11",
 
     "meta" : {
         "label" : "Geocoder Dimitri",

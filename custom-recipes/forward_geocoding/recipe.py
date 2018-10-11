@@ -16,6 +16,7 @@ logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 def get_config():
     print('On est dans la nouvelle branche')
     print('le 2e')
+    print('new line')
     config = {}
     config['input_ds'] = dataiku.Dataset(get_input_names_for_role('input_ds')[0])
     config['output_ds'] = dataiku.Dataset(get_output_names_for_role('output_ds')[0])

@@ -15,7 +15,9 @@ logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
 def get_config():
     config = {}
-    con
+    config['input_ds'] = dataiku.Dataset(get_input_names_for_role('input_ds')[0])
+    config['output_ds'] = dataiku.Dataset(get_output_names_for_role('output_ds')[0])
+        
     for param in ['address_column', 'cache_enabled', 'provider', 'api_key', 'here_app_id', 'here_app_code', 'google_client', 'google_client_secret']:
         config[param] = get_recipe_config().get(param, None)
     

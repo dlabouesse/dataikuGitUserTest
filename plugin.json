@@ -3,7 +3,7 @@
     "version" : "1.1.0",
 
     "meta" : {
-        "label" : "Geocoder Dimitri",
+        "label" : "Geocoder Dimitri 2",
         "description" : "Provides recipes to perform geocoding and reverse geocoding on columns of your datasets. Supports over 25 geocoding service providers, along with caching and batch options.",
         "author" : "Dataiku (Thomas Labadie)",
         "icon" : "icon-globe",

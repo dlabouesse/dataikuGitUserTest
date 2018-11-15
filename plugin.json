@@ -1,6 +1,6 @@
 {
     "id" : "geocoder",
-    "version" : "dev",
+    "version" : "production",
 
     "meta" : {
         "label" : "Geocoder",

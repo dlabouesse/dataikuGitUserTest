@@ -6,7 +6,7 @@
         "label" : "Geocoder",
         "description" : "Provides recipes to perform geocoding and reverse geocoding on columns of your datasets. Supports over 25 geocoding service providers, along with caching and batch options.",
         "author" : "Dataiku (Thomas Labadie)",
-        "icon" : "icon-cny",
+        "icon" : "icon-conflict",
         "licenseInfo" : "Apache Software License",
         "url" : "https://www.dataiku.com/dss/plugins/info/geocoder.html",
         "tags" : ["Geospatial", "Enrichment"]
